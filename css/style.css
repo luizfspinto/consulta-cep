@@ -110,7 +110,7 @@ p {
   .imagem {
     height: 100%;
     width: 50%;
-    background-image: url("mulher-sorrindo.jpg");
+    background-image: url("../assets/img/mulher-sorrindo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
