@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  box-shadow: 3px 3px 10px rgb(204, 204, 204);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+header h1 {
+  color: #00416b;
+  font-size: 1.8rem;
+}
+
+.form form {
+  border-radius: 0.5rem;
+  max-width: 380px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 5px 10px 18px rgb(212, 212, 212);
+}
+
+form input {
+  border: none;
+  border: 1px solid #b1b0b0;
+  border-radius: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  width: 100%;
+  outline: none;
+  color: #00416b;
+  font-size: 0.9rem;
+  background-color: #fdfbfb;
+}
+
+form input:focus {
+  border: 1px solid #00416b;
+}
+
+.input-wrapper {
+  margin: 1rem 0;
+}
+
+.input-wrapper label {
+  color: #00416b;
+  font-size: 1rem;
+}
+
+button {
+  border: none;
+  padding: 0.7rem;
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: #ffd400;
+  font-size: 0.9rem;
+  color: #00416b;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+
+button:hover {
+  background-color: #00416b;
+  color: white;
+  box-shadow: 1px 1px 10px 2px #b1b0b0;
+}
+
+/*Mensagem de erro, no formulário*/
+#nameError {
+  display: none;
+  font-size: 0.8em;
+  color: red;
+}
+
+p {
+  font-size: 0.8em;
+  margin-top: 0.5rem;
+}
+
+#nameError.visible {
+  display: block;
+}
+
+/*responsividade*/
+@media screen and (min-width: 800px) {
+  #myAnimation {
+    position: absolute;
+  }
+
+  main {
+    display: flex;
+    height: 87.6vh;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .imagem {
+    height: 100%;
+    width: 50%;
+    background-image: url("mulher-sorrindo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .form {
+    width: 50%;
+    padding: 0 4rem;
+  }
+
+  header h1 {
+    font-size: 2.6rem;
+  }
+}

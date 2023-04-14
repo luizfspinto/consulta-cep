@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Consultar CEP</title>
+  </head>
+  <body>
+    <header class="move">
+      <h1 id="myAnimation">Consulte um endereço aqui!</h1>
+    </header>
+    <main>
+      <div class="form">
+        <form action="#">
+          <div class="input-wrapper">
+            <label for="cep">CEP:</label><br />
+            <input type="text" id="cep" name="cep" />
+            <span role="alert" id="nameError" aria-hidden="true"
+              >Preencha o CEP corretamente</span
+            >
+          </div>
+          <div class="input-wrapper">
+            <label for="rua">Rua:</label><br />
+            <input type="text" id="rua" name="rua" />
+          </div>
+          <div class="input-wrapper">
+            <label for="bairro">Bairro:</label><br />
+            <input type="text" id="bairro" name="bairro" />
+          </div>
+          <div class="input-wrapper">
+            <label for="cidade">Cidade:</label><br />
+            <input type="text" id="cidade" name="cidade" />
+          </div>
+          <div class="input-wrapper">
+            <label for="uf">Estado:</label><br />
+            <input type="text" id="uf" name="uf" />
+          </div>
+          <button type="reset">Limpar Campos</button>
+          <p>OBS: Caso preencha o campo CEP e os demais campos não forem preenchidos automatico, o CEP pode estar errado!</p>
+        </form>
+        
+      </div>
+      <div class="imagem"></div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
