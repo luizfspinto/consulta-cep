@@ -10,7 +10,7 @@ Projeto desenvolvido com foco em Desenvolvimento Web, e uso de API.<br/>
 </p>
 
 ## Demo
-https://concultacep.lzfelipe.dev/
+https://consultacep.lzfelipe.dev/
 
 ## 🚀 Tecnologias
 
