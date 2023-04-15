@@ -23,5 +23,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Desenvolvido para todos os usuários que desejam consultar endereços através dos seus respectivos CEP.
-Os dados são extraídos a partir da API: https://viacep.com.br/ws/${value}/json/
-<br>Site oficial: https://viacep.com.br/
+- Os dados são extraídos a partir da API: https://viacep.com.br/ws/${value}/json/
+- Site oficial: https://viacep.com.br/
